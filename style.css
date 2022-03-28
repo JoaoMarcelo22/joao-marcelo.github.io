@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 100px;
+    width: auto;
+    background-color: aquamarine;
+    text-align: center;
+}
+a{
+    font-size: 40px;
+    margin: 9%;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+}
+main{
+    font-size: 25px;
+}
