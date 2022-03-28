@@ -27,11 +27,13 @@ main{
 
     font-size: 25px;
     color: #ffffff;
+    margin: 10px;
 }
 section{
     width: 81%;
     text-align: center;
     margin: auto;
+    display: block;
 }
 body{
     background-image: url(imagens/fundo.jpg);
@@ -40,5 +42,6 @@ body{
 #imagens_curiosidade{
     height: 250px;
     width: 250px;
-    float: left;
+    position: relative;
+    left: -40%;
 }
