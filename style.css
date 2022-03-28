@@ -6,12 +6,13 @@
 nav{
     height: 100px;
     width: auto;
-    background-color: aquamarine;
+    background-color:#ffffff2f;
     text-align: center;
 }
 a{
     font-size: 40px;
     margin: 9%;
+    color: #ffffff;
 }
 footer{
     background-color: aquamarine;
@@ -19,4 +20,8 @@ footer{
 }
 main{
     font-size: 25px;
+}
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-position: center;
 }
