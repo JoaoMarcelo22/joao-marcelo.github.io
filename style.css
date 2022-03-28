@@ -4,24 +4,41 @@
     padding: 0px;
 }
 nav{
+    padding-top: 15px;
     height: 100px;
-    width: auto;
+    width: 81%;
+    margin: auto;
     background-color:#ffffff2f;
     text-align: center;
 }
-a{
+nav a{
     font-size: 40px;
     margin: 9%;
     color: #ffffff;
 }
 footer{
-    background-color: aquamarine;
+    color: #ffffff;
     text-align: center;
+    background-color: #ffffff2f;
+    margin: auto;
+    width: 81%;
 }
 main{
+
     font-size: 25px;
+    color: #ffffff;
+}
+section{
+    width: 81%;
+    text-align: center;
+    margin: auto;
 }
 body{
     background-image: url(imagens/fundo.jpg);
     background-position: center;
+}
+#imagens_curiosidade{
+    height: 250px;
+    width: 250px;
+    float: left;
 }
