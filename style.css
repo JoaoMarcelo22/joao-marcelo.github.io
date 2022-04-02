@@ -6,14 +6,14 @@
 nav{
     padding-top: 15px;
     height: 100px;
-    width: 81%;
+    width: 100%;
     margin: auto;
     background-color:#ffffff2f;
     text-align: center;
 }
 nav a{
     font-size: 40px;
-    margin: 5%;
+    margin: 3%;
     color: #ffffff;
 }
 footer{
@@ -21,13 +21,18 @@ footer{
     text-align: center;
     background-color: #ffffff2f;
     margin: auto;
-    width: 81%;
+    width: 100%;
+    height: 50px;
 }
 main{
-
+    text-indent: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
     font-size: 25px;
     color: #ffffff;
-    margin: 10px;
+    margin: auto;
+    background-color: rgb(56, 47, 47);
+    box-shadow: 3px rgba(71, 49, 49, 0.822);
 }
 section{
     width: 81%;
@@ -36,12 +41,23 @@ section{
     display: block;
 }
 body{
-    background-image: url(imagens/fundo.jpg);
-    background-position: center;
+    background-color: black;
+    width: 85%;
+    text-align: center;
+    margin: auto;
 }
-#imagens_curiosidade{
-    height: 250px;
-    width: 250px;
-    position: relative;
-    right: 37%;
+#imagens{
+    height: 50%;
+    width:calc(50% + 130px);
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+div{
+    margin: 150px 0px;
+    text-align: justify;
+}
+#final{
+    margin: 0px;
 }
